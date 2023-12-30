@@ -1,0 +1,45 @@
+/* :root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-error: #FF0000;
+
+  --color-background: #1E1E1E;
+  --color-form-bg: #FFFEF1;
+  --color-home-bg: #575757;
+  --color-home-summary-bg: #DCD7C9;
+  --color-spotify-container-bg: #D8DEE3;
+  --color-about-card-bg: #333;
+
+  --color-home-data-card: #FFFEF1;
+  --color-music-production: #634A73;
+  --color-mastering: #8D6A4D;
+  --color-mixing: #486B6D;
+
+
+  --color-button: #ffffff;
+  --color-button-border: #000000;
+
+  --color-production-button: #A0A080;
+  --color-mustard: #D6AE74;
+
+  --color-hover: #F0F0F0;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-black);
+} */
+
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
