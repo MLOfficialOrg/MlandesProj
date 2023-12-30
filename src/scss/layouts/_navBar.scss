@@ -18,21 +18,21 @@
 .tab-item {
   background: transparent;
   border: none !important; /* stylelint-disable-line */
-  color: $header-nav-button;
+  color: $light;
   margin: 0 10px;
   font-size: 25px;
 }
 
 .tab-item:hover {
-  -webkit-text-stroke: 1.5px $header-nav-button;
+  -webkit-text-stroke: 1.5px $light;
   cursor: pointer;
 }
 
 .tab-item-selected {
   background: transparent;
   border: none !important; /* stylelint-disable-line */
-  color: $header-nav-button-chosen;
+  color: $primary-nav;
   margin: 0 10px;
   font-size: 25px;
-  -webkit-text-stroke: 1.5px $header-nav-button-chosen;
+  -webkit-text-stroke: 1.5px $primary-nav;
 }

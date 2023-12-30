@@ -3,8 +3,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: $footer-bg-color;
-  color: $footer-text-color;
+  background-color: $primary-dark;
+  color: $light;
   width: 100%;
 }
 
@@ -13,8 +13,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: $footer-bg-color;
-  color: $footer-text-color;
+  background-color: $primary-dark;
+  color: $light;
   width: 90%;
   padding-right: 0%;
 }
@@ -36,13 +36,13 @@
 .footer-link {
   background: transparent;
   border: none !important; /* stylelint-disable-line */
-  color: $footer-link-color;
+  color: $light;
   margin: 5px;
   font-size: 1.2rem;
 }
 
 .footer-link:hover {
-  -webkit-text-stroke: 1px $footer-link-color;
+  -webkit-text-stroke: 1px $light;
   cursor: pointer;
 }
 
