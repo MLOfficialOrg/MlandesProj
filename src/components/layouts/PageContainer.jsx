@@ -49,17 +49,31 @@ export default function PageContainer({ page, setOpen }) {
         <Route
           path="/services/music"
           element={
-            <ServicePage data={servicePagesData.music} Logo={MusicProduction} />
+            <ServicePage
+              data={servicePagesData.music}
+              Logo={MusicProduction}
+              setOpen={setOpen}
+            />
           }
         />
         <Route
           path="/services/mixing"
-          element={<ServicePage data={servicePagesData.mixing} Logo={Mixing} />}
+          element={
+            <ServicePage
+              data={servicePagesData.mixing}
+              Logo={Mixing}
+              setOpen={setOpen}
+            />
+          }
         />
         <Route
           path="/services/mastering"
           element={
-            <ServicePage data={servicePagesData.mastering} Logo={Mastering} />
+            <ServicePage
+              data={servicePagesData.mastering}
+              Logo={Mastering}
+              setOpen={setOpen}
+            />
           }
         />
       </Routes>
