@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 700px;
+  height: 50vh;
   background-color: $secondary-dark;
   margin: 5% 0;
 }
@@ -59,10 +59,9 @@
 
 .production-button {
   position: static;
-  width: 218px;
-  height: 75px;
-  border-radius: 50px;
-  font-size: 25px;
+  width: 6vw;
+  height: 5vh;
+  font-size: $fs-xs;
   color: $dark;
   border-radius: 5px;
   background-color: $light;

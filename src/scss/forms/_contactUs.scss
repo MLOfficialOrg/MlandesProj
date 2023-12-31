@@ -23,7 +23,7 @@
   justify-content: center;
   align-items: center;
   width: 70%;
-  margin: 40px 0 0;
+  margin: 5% 0 0;
 }
 
 .name-container {
@@ -32,20 +32,20 @@
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
-  margin: 0.5rem 0;
+  margin: 1% 0;
 }
 
 .naming {
   width: 100%;
   padding: 0;
-  margin: 0.5rem 0;
+  margin: 1% 0;
 }
 
 .naming-error {
   border-color: $error !important;
   width: 100%;
   padding: 0;
-  margin: 0.5rem 0;
+  margin: 1% 0;
 }
 
 .naming-error::placeholder {
@@ -55,14 +55,14 @@
 
 .email {
   width: 97.5%;
-  margin: 0.5rem 0;
+  margin: 1% 0;
   padding: 0;
 }
 
 .email-error {
   border-color: $error !important;
   width: 97.5%;
-  margin: 0.5rem 0;
+  margin: 1% 0;
   padding: 0;
 }
 
@@ -73,35 +73,35 @@
 
 .subject {
   background-color: $light;
-  height: 2.5rem;
+  height: 100%;
   width: 100%;
   border: 1px solid $dark;
   border-radius: 2px;
-  margin: 0.5rem 0;
-  padding: 0 5px;
+  margin: 1% 0;
+  padding: 1%;
 }
 
 .subject-error {
   background-color: $light;
-  height: 2.5rem;
+  height: 2.5vh;
   width: 100%;
   border: 1px solid $error;
   border-radius: 2px;
-  margin: 0.5rem 0;
-  padding: 0 5px;
+  margin: 1% 0;
+  padding: 0 2%;
   color: $error;
 }
 
 .textarea {
   background-color: $light;
-  min-height: 125px;
-  max-height: 500px;
+  min-height: 10vh;
+  max-height: 40vh;
   width: 97.5%;
   border: 1px solid $dark;
   border-radius: 2px;
   resize: vertical;
-  margin: 0.5rem 0;
-  padding: 5px;
+  margin: 1% 0;
+  padding: 2%;
 }
 
 .textarea::placeholder {
@@ -111,14 +111,14 @@
 
 .textarea-error {
   background-color: $light;
-  min-height: 125px;
-  max-height: 500px;
+  min-height: 10vh;
+  max-height: 40vh;
   width: 97.5%;
   border: 1px solid $error;
   border-radius: 2px;
   resize: vertical;
-  margin: 0.5rem 0;
-  padding: 5px;
+  margin: 1% 0;
+  padding: 2%;
 }
 
 .textarea-error::placeholder {
@@ -129,10 +129,10 @@
 .submit {
   background-color: $light;
   color: $dark;
-  height: 35px;
+  height: 3vh;
   width: 30%;
   border: 1px solid $dark;
-  margin: 12px 0;
+  margin: 3% 0;
   cursor: pointer;
 }
 
@@ -150,7 +150,7 @@
   justify-content: center;
   align-items: flex-start;
   width: 100%;
-  margin: 12px 0;
+  margin: 3% 0;
 }
 
 .item-name-container {
@@ -159,13 +159,13 @@
   justify-content: center;
   align-items: flex-start;
   width: 45%;
-  margin: 12px 0;
+  margin: 3% 0;
 }
 
 .close-icon {
   background: transparent;
   align-self: flex-end;
-  border: none !important; /* stylelint-disable-line */
+  border-width: 0;
   font-size: 0;
   cursor: pointer;
   margin: 2%;
@@ -176,10 +176,10 @@
 input[type="text"] {
   /* stylelint-disable-line */
   background-color: $light;
-  height: 35px;
+  height: 2.5vh;
   border: 1px solid $dark;
   border-radius: 2px;
-  padding: 0 5px;
+  padding: 0 2%;
 }
 
 input[type="text"]::placeholder {

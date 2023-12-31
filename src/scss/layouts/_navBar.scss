@@ -1,26 +1,25 @@
 .nav-bar-container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 30px;
-  padding: 10px 0 20px;
-  width: 70%;
+  justify-content: space-between;
+  padding: 0.5% 0;
+  width: 30%;
 }
 
 .hidden-nav-button {
   background: transparent;
   position: absolute;
   margin-left: 69%;
-  border: none !important; /* stylelint-disable-line */
   cursor: pointer;
 }
 
 .tab-item {
   background: transparent;
-  border: none !important; /* stylelint-disable-line */
+  border-width: 0;
   color: $light;
-  margin: 0 10px;
-  font-size: 25px;
+  margin: 0 10%;
+  width: 100%;
+  font-size: $fs-xs;
 }
 
 .tab-item:hover {
@@ -30,9 +29,10 @@
 
 .tab-item-selected {
   background: transparent;
-  border: none !important; /* stylelint-disable-line */
+  border-width: 0;
   color: $primary-nav;
-  margin: 0 10px;
-  font-size: 25px;
+  margin: 0 10%;
+  width: 100%;
+  font-size: $fs-xs;
   -webkit-text-stroke: 1.5px $primary-nav;
 }
