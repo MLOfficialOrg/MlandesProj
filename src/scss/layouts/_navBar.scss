@@ -1,16 +1,28 @@
 .nav-bar-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   padding: 0.5% 0;
   width: 30%;
 }
 
 .hidden-nav-button {
+  display: flex;
+  justify-content: flex-end;
   background: transparent;
-  position: absolute;
-  margin-left: 69%;
+  width: 35%;
+  padding: 0 1%;
+  font-size: $fs-xs;
   cursor: pointer;
+  border-width: 0;
+  color: $light;
 }
 
 .tab-item {
@@ -35,4 +47,5 @@
   width: 100%;
   font-size: $fs-xs;
   -webkit-text-stroke: 1.5px $primary-nav;
+  text-decoration: underline;
 }

@@ -15,8 +15,8 @@ export default function NavBar({ page, setPage, loggedIn, setLogin }) {
   ];
 
   return (
-    <>
-      <div className="nav-bar-container">
+    <div className="nav-bar-container">
+      <div className="links-container">
         {tabList.map((item, idx) => {
           return (
             <Link key={idx} to={item[1]}>
@@ -31,21 +31,19 @@ export default function NavBar({ page, setPage, loggedIn, setLogin }) {
             </Link>
           );
         })}
-        {loggedIn ? (
-          <button className="hidden-nav-button">
-            <img src={LoggedInAvatar} />
-          </button>
-        ) : (
-          <button
-            className="hidden-nav-button"
-            onClick={() => {
-              setLogin(true);
-            }}
-          >
-            <img src={NotLoggedInAvatar} />
-          </button>
-        )}
       </div>
-    </>
+      {loggedIn ? (
+        <button className="hidden-nav-button">Logout</button>
+      ) : (
+        <button
+          className="hidden-nav-button"
+          onClick={() => {
+            setLogin(true);
+          }}
+        >
+          My Account
+        </button>
+      )}
+    </div>
   );
 }
