@@ -1,9 +1,9 @@
 .contact-button {
-  background-color: $btn-bg-color;
+  background-color: $light;
   width: 23%;
   height: 12vh;
-  border: 1px solid $btn-border-color;
-  color: $btn-color;
+  border: 1px solid $dark;
+  color: $dark;
   margin-bottom: 5%;
   font-size: $fs-base;
   font-weight: $fw-medium;
@@ -11,5 +11,5 @@
 }
 
 .contact-button:active {
-  background-color: $btn-bg-action;
+  background-color: $primary-btn;
 }

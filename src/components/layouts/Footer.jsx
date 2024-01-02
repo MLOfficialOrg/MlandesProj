@@ -27,7 +27,7 @@ export default function Footer({ setPage }) {
             />
           </div>
           <p className="copy-right">
-            © 2022 - 2023 Michael Landes. All right reserved.
+            © 2022 - 2023 Michael Landes. All rights reserved.
           </p>
         </div>
       </div>

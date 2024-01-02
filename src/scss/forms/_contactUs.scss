@@ -3,11 +3,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: $form-bg-color;
+  background-color: $primary-light;
 }
 
 .dialog-header {
-  font-size: $h-4-font-size;
+  font-size: $h-4;
   margin: 2% 0%;
 }
 
@@ -23,7 +23,7 @@
   justify-content: center;
   align-items: center;
   width: 70%;
-  margin: 40px 0 0;
+  margin: 5% 0 0;
 }
 
 .name-container {
@@ -32,116 +32,116 @@
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
-  margin: 0.5rem 0;
+  margin: 1% 0;
 }
 
 .naming {
   width: 100%;
   padding: 0;
-  margin: 0.5rem 0;
+  margin: 1% 0;
 }
 
 .naming-error {
-  border-color: $form-error-border-color !important;
+  border-color: $error !important;
   width: 100%;
   padding: 0;
-  margin: 0.5rem 0;
+  margin: 1% 0;
 }
 
 .naming-error::placeholder {
-  color: $form-error-color !important;
+  color: $error !important;
   opacity: 1 !important;
 }
 
 .email {
   width: 97.5%;
-  margin: 0.5rem 0;
+  margin: 1% 0;
   padding: 0;
 }
 
 .email-error {
-  border-color: $form-error-color !important;
+  border-color: $error !important;
   width: 97.5%;
-  margin: 0.5rem 0;
+  margin: 1% 0;
   padding: 0;
 }
 
 .email-error::placeholder {
-  color: $form-error-color !important;
+  color: $error !important;
   opacity: 1 !important;
 }
 
 .subject {
-  background-color: $form-input-bg-color;
-  height: 2.5rem;
+  background-color: $light;
+  height: 100%;
   width: 100%;
-  border: 1px solid $form-border-color;
+  border: 1px solid $dark;
   border-radius: 2px;
-  margin: 0.5rem 0;
-  padding: 0 5px;
+  margin: 1% 0;
+  padding: 1%;
 }
 
 .subject-error {
-  background-color: $form-input-bg-color;
-  height: 2.5rem;
+  background-color: $light;
+  height: 2.5vh;
   width: 100%;
-  border: 1px solid $form-error-border-color;
+  border: 1px solid $error;
   border-radius: 2px;
-  margin: 0.5rem 0;
-  padding: 0 5px;
-  color: $form-error-color;
+  margin: 1% 0;
+  padding: 0 2%;
+  color: $error;
 }
 
 .textarea {
-  background-color: $form-input-bg-color;
-  min-height: 125px;
-  max-height: 500px;
+  background-color: $light;
+  min-height: 10vh;
+  max-height: 40vh;
   width: 97.5%;
-  border: 1px solid $form-border-color;
+  border: 1px solid $dark;
   border-radius: 2px;
   resize: vertical;
-  margin: 0.5rem 0;
-  padding: 5px;
+  margin: 1% 0;
+  padding: 2%;
 }
 
 .textarea::placeholder {
-  color: $form-placeholder-color;
+  color: $trans-dark;
   opacity: 0.5;
 }
 
 .textarea-error {
-  background-color: $form-input-bg-color;
-  min-height: 125px;
-  max-height: 500px;
+  background-color: $light;
+  min-height: 10vh;
+  max-height: 40vh;
   width: 97.5%;
-  border: 1px solid $form-error-border-color;
+  border: 1px solid $error;
   border-radius: 2px;
   resize: vertical;
-  margin: 0.5rem 0;
-  padding: 5px;
+  margin: 1% 0;
+  padding: 2%;
 }
 
 .textarea-error::placeholder {
-  color: $form-error-color;
+  color: $error;
   opacity: 1;
 }
 
 .submit {
-  background-color: $btn-bg-color;
-  color: $btn-color;
-  height: 35px;
+  background-color: $light;
+  color: $dark;
+  height: 3vh;
   width: 30%;
-  border: 1px solid $btn-border-color;
-  margin: 12px 0;
+  border: 1px solid $dark;
+  margin: 3% 0;
   cursor: pointer;
 }
 
 .submit:active {
-  background-color: $btn-bg-action;
+  background-color: $primary-btn;
 }
 
 .error {
-  color: $form-error-color;
+  color: $error;
 }
 
 .item-container {
@@ -150,7 +150,7 @@
   justify-content: center;
   align-items: flex-start;
   width: 100%;
-  margin: 12px 0;
+  margin: 3% 0;
 }
 
 .item-name-container {
@@ -159,13 +159,13 @@
   justify-content: center;
   align-items: flex-start;
   width: 45%;
-  margin: 12px 0;
+  margin: 3% 0;
 }
 
 .close-icon {
   background: transparent;
   align-self: flex-end;
-  border: none !important; /* stylelint-disable-line */
+  border-width: 0;
   font-size: 0;
   cursor: pointer;
   margin: 2%;
@@ -173,15 +173,17 @@
 
 /* General */
 
-input[type="text"] { /* stylelint-disable-line */
-  background-color: $form-input-bg-color;
-  height: 35px;
+.dialog-container input[type="text"] {
+  /* stylelint-disable-line */
+  background-color: $light;
+  height: 2.5vh;
   border: 1px solid $dark;
   border-radius: 2px;
-  padding: 0 5px;
+  padding: 0 2%;
 }
 
-input[type="text"]::placeholder { /* stylelint-disable-line */
-  color: $form-input-color;
+.dialog-container input[type="text"]::placeholder {
+  /* stylelint-disable-line */
+  color: $dark;
   opacity: 0.5;
 }

@@ -1,6 +1,6 @@
 import ContactButton from "../buttons/ContactButton";
 
-export default function ServicePage({ Logo, data }) {
+export default function ServicePage({ Logo, data, setOpen }) {
   return (
     <>
       <div className="service-header">
@@ -13,7 +13,7 @@ export default function ServicePage({ Logo, data }) {
         {/* videos */}
         <h3 className="contact-title">{data.contactTitle}</h3>
         <p className="contact-text">{data.contactText}</p>
-        <ContactButton />
+        <ContactButton setOpen={setOpen} />
       </div>
     </>
   );

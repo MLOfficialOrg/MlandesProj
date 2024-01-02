@@ -38,23 +38,25 @@
 =============================================*/
 
 /* Brand Colors */
-$ivory: #fffef1;
-$ebony: #1f1f1f;
-$gray: #575757;
-$jet: #333;
+$primary-light: #fffef1;
+$primary-dark: #1f1f1f;
+$secondary-light: #575757;
+$secondary-dark: #333;
 
 /* Neutral Colors */
-
-$white: #fff;
+$light: #fff;
 $dark: #000;
+
+/* Transparent Colors */
+$trans-dark: rgba($dark, 0.5);
 
 /** Utility Colors **/
 
 /* Navigation Colors */
-$chosen-nav: #d6ae74;
+$primary-nav: #d6ae74;
 
 /* Button Colors */
-$active: #f0f0f0;
+$primary-btn: #f0f0f0;
 
 /* State Colors */
 $error: #f00;
@@ -65,17 +67,6 @@ $success: #47aa54;
 /*=============================================
 =                Typography                   =
 =============================================*/
-
-/**
- *
- *  CHANGE THE FONT TO MICHAEL'S FONT
- *
- * 1) The montserrat font. We'll use this for headings mostly.
- *     https://fonts.google.com/specimen/Montserrat
- *
- * 2) The Merriweather font. We'll use this for the body text.
- *     https://fonts.google.com/specimen/Merriweather
- */
 
 /* Font families */
 

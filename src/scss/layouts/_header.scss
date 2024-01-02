@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: $header-bg-color;
+  background-color: $primary-dark;
   width: 100%;
 }
 
@@ -13,8 +13,8 @@
 
 .hidden-header-button {
   background: transparent;
-  border: none !important; /* stylelint-disable-line */
-  padding: 0%;
+  border-width: 0;
+  padding: 0;
   width: 100%;
   cursor: pointer;
 }

@@ -1,5 +1,5 @@
 .home-container {
-  background-color: $page-primary-bg-color;
+  background-color: $secondary-light;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -16,7 +16,7 @@
 }
 
 .home-summary-container {
-  background-color: $page-secondary-bg-color;
+  background-color: $primary-light;
   width: 72%;
   padding: 3% 10%;
 }
@@ -44,7 +44,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: $h-1-font-size;
+  font-size: $h-1;
   font-weight: $fw-extrabold;
   margin: 8% 0 0;
 }
@@ -56,7 +56,7 @@
 }
 
 .home-contact-container {
-  background-color: $page-secondary-bg-color;
+  background-color: $secondary-light;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,7 +65,7 @@
 }
 
 .contact-header {
-  font-size: $h-3-font-size;
+  font-size: $h-3;
   font-weight: $fw-normal;
-  color: $page-text-color;
+  color: $dark;
 }
