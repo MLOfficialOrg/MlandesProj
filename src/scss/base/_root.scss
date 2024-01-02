@@ -1,0 +1,53 @@
+:root {
+  --body-text-color: #{$white};
+  --body-bg-color: #{$dark};
+
+  --header-bg-color: #{$ebony};
+  --header-text-color: #{$white};
+  --header-nav-button: #{$white};
+  --header-nav-button-chosen: #{$chosen-nav};
+
+  --footer-bg-color: #{$ebony};
+  --footer-text-color: #{$white};
+  --footer-link-color: #{$white};
+
+  --page-primary-bg-color: #{$gray};
+  --page-secondary-bg-color: #{$ivory};
+  --page-text-color: #{$dark};
+
+  --form-text-color: #{$dark};
+  --form-bg-color: #{$ivory};
+  --form-error-color: #{$error};
+  --form-error-border: #{$error};
+  --form-input-border: #{$dark};
+  --form-placeholder-color: rgba(#{$dark}, 0.5);
+  --form-input-bg-color: #{$white};
+
+  --btn-color: #{$dark};
+  --btn-bg-color: #{$white};
+  --btn-bg-action: #{$active};
+  --btn-border: #{$dark};
+
+  --bright-card-bg-color: #{$ivory};
+  --bright-card-text-color: #{$dark};
+  --bright-card-action-color: #{$active};
+
+  --dark-card-bg-color: #{$jet};
+  --dark-card-text-color: #{$white};
+
+  // --body-font-size: #{$fs-base};
+  --body-font-weight: #{$fw-normal};
+
+  --h1-font-size: #{$h-1};
+  --h2-font-size: #{$h-2};
+  --h3-font-size: #{$h-3};
+  --h4-font-size: #{$h-4};
+  --h5-font-size: #{$h-5};
+  --h6-font-size: #{$h-6};
+
+  --h1-font-weight: #{$fw-extrabold};
+  --h2-font-weight: #{$fw-bold};
+  --h3-font-weight: #{$fw-semibold};
+  --h4-font-weight: #{$fw-medium};
+  --h5-font-weight: #{$fw-normal};
+}

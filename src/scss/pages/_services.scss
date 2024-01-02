@@ -1,0 +1,24 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background-color: $ivory;
+}
+
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: $fs-sm;
+  line-height: $sp-xxl;
+  width: 80%;
+  margin: 1% 10%;
+  border: 1px solid $dark;
+}
+
+.feedback-data-container {
+  margin-top: 5%;
+}

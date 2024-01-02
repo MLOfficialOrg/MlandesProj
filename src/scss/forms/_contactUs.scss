@@ -1,0 +1,187 @@
+.dialog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $form-bg-color;
+}
+
+.dialog-header {
+  font-size: $h-4-font-size;
+  margin: 2% 0%;
+}
+
+.dialog-header-text {
+  font-size: $fs-xs;
+  width: 70%;
+  margin: 0 5%;
+}
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 40px 0 0;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.naming {
+  width: 100%;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+.naming-error {
+  border-color: $form-error-border-color !important;
+  width: 100%;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+.naming-error::placeholder {
+  color: $form-error-color !important;
+  opacity: 1 !important;
+}
+
+.email {
+  width: 97.5%;
+  margin: 0.5rem 0;
+  padding: 0;
+}
+
+.email-error {
+  border-color: $form-error-color !important;
+  width: 97.5%;
+  margin: 0.5rem 0;
+  padding: 0;
+}
+
+.email-error::placeholder {
+  color: $form-error-color !important;
+  opacity: 1 !important;
+}
+
+.subject {
+  background-color: $form-input-bg-color;
+  height: 2.5rem;
+  width: 100%;
+  border: 1px solid $form-border-color;
+  border-radius: 2px;
+  margin: 0.5rem 0;
+  padding: 0 5px;
+}
+
+.subject-error {
+  background-color: $form-input-bg-color;
+  height: 2.5rem;
+  width: 100%;
+  border: 1px solid $form-error-border-color;
+  border-radius: 2px;
+  margin: 0.5rem 0;
+  padding: 0 5px;
+  color: $form-error-color;
+}
+
+.textarea {
+  background-color: $form-input-bg-color;
+  min-height: 125px;
+  max-height: 500px;
+  width: 97.5%;
+  border: 1px solid $form-border-color;
+  border-radius: 2px;
+  resize: vertical;
+  margin: 0.5rem 0;
+  padding: 5px;
+}
+
+.textarea::placeholder {
+  color: $form-placeholder-color;
+  opacity: 0.5;
+}
+
+.textarea-error {
+  background-color: $form-input-bg-color;
+  min-height: 125px;
+  max-height: 500px;
+  width: 97.5%;
+  border: 1px solid $form-error-border-color;
+  border-radius: 2px;
+  resize: vertical;
+  margin: 0.5rem 0;
+  padding: 5px;
+}
+
+.textarea-error::placeholder {
+  color: $form-error-color;
+  opacity: 1;
+}
+
+.submit {
+  background-color: $btn-bg-color;
+  color: $btn-color;
+  height: 35px;
+  width: 30%;
+  border: 1px solid $btn-border-color;
+  margin: 12px 0;
+  cursor: pointer;
+}
+
+.submit:active {
+  background-color: $btn-bg-action;
+}
+
+.error {
+  color: $form-error-color;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin: 12px 0;
+}
+
+.item-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 45%;
+  margin: 12px 0;
+}
+
+.close-icon {
+  background: transparent;
+  align-self: flex-end;
+  border: none !important; /* stylelint-disable-line */
+  font-size: 0;
+  cursor: pointer;
+  margin: 2%;
+}
+
+/* General */
+
+input[type="text"] { /* stylelint-disable-line */
+  background-color: $form-input-bg-color;
+  height: 35px;
+  border: 1px solid $dark;
+  border-radius: 2px;
+  padding: 0 5px;
+}
+
+input[type="text"]::placeholder { /* stylelint-disable-line */
+  color: $form-input-color;
+  opacity: 0.5;
+}

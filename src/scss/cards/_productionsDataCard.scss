@@ -1,0 +1,74 @@
+%basic-service-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 700px;
+  background-color: $jet;
+  margin: 5% 0;
+}
+
+.music-production-container {
+  @extend %basic-service-container;
+}
+
+.mixing-container {
+  @extend %basic-service-container;
+  margin: 0;
+}
+
+.mastering-container {
+  @extend %basic-service-container;
+}
+
+%content-container-temp {
+  display: flex;
+  height: 100%;
+  color: $white;
+}
+
+.content-container {
+  @extend %content-container-temp;
+}
+
+.reverse-content-container {
+  @extend %content-container-temp;
+  flex-direction: row-reverse;
+}
+
+.header {
+  font-size: $h-4;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: $fs-sm;
+  text-align: center;
+  margin: 0 10%;
+  width: 34%;
+  height: 100%;
+}
+
+.production-logo {
+  width: 46%;
+  height: 100%;
+  padding: 0 2%;
+}
+
+.production-button {
+  position: static;
+  width: 218px;
+  height: 75px;
+  border-radius: 50px;
+  font-size: 25px;
+  color: $dark;
+  border-radius: 5px;
+  background-color: $white;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}

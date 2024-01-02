@@ -1,0 +1,71 @@
+.home-container {
+  background-color: $page-primary-bg-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2% 4%;
+  padding: 2% 0;
+}
+
+.home-summary-container {
+  background-color: $page-secondary-bg-color;
+  width: 72%;
+  padding: 3% 10%;
+}
+
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.home-text {
+  font-size: $fs-base;
+  font-weight: $fw-normal;
+  padding: 4% 0;
+  margin: 0;
+}
+
+.home-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: $h-1-font-size;
+  font-weight: $fw-extrabold;
+  margin: 8% 0 0;
+}
+
+.spotify-embed {
+  border-radius: 12px;
+  width: 49%;
+  height: 40vh;
+}
+
+.home-contact-container {
+  background-color: $page-secondary-bg-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 92%;
+  margin: 3% 10%;
+}
+
+.contact-header {
+  font-size: $h-3-font-size;
+  font-weight: $fw-normal;
+  color: $page-text-color;
+}

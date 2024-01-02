@@ -1,0 +1,16 @@
+.social-media-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  height: 30px;
+  width: 100%;
+}
+
+.social-icon {
+  background: transparent;
+  border: none !important; /* stylelint-disable-line */
+  font-size: 0;
+  cursor: pointer;
+  margin: 0 3px;
+}

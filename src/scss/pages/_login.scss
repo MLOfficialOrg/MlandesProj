@@ -1,0 +1,18 @@
+.login-container {
+  background-color: $form-bg-color;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-container {
+  background-color: $form-bg-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  width: 25%;
+}

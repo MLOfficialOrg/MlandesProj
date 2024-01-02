@@ -1,0 +1,33 @@
+/*------------------------------------*\
+    TABLE OF CONTENTS
+\*------------------------------------*/
+
+/**
+ *
+ * FOUNDATIONS................................................
+ * BASE.......................................................
+ */
+
+/*=============================================
+ =                   Foundations               =
+ =============================================*/
+
+@import "foundation/all";
+
+/*==============================================
+  =                   Base                      =
+  =============================================*/
+
+// @import "base/reset";
+@import "base/root";
+
+@import "pages/pages";
+@import "layouts/layouts";
+@import "forms/forms";
+@import "cards/cards";
+@import "buttons/buttons";
+
+body {
+  margin: 0;
+  background-color: $body-bg-color;
+}
