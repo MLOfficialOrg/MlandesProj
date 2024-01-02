@@ -1,0 +1,72 @@
+.coming-soon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $primary-light;
+  margin: 5% 0;
+  padding: 5% 0;
+}
+
+.coming-soon-title {
+  font-size: $h-3;
+}
+
+.coming-soon-text {
+  font-size: $fs-sm;
+  text-align: center;
+  width: 60%;
+  margin: 3% 0;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 60%;
+}
+
+.email-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.coming-soon-email {
+  width: 90%;
+  font-size: $fs-sm;
+  margin: 0 1%;
+  background-color: $primary-light;
+}
+
+.coming-soon-email-error {
+  border-color: $error !important;
+  background-color: $primary-light;
+  width: 90%;
+  font-size: $fs-sm;
+}
+
+.coming-soon-email-error::placeholder {
+  color: $error !important;
+  opacity: 1 !important;
+}
+
+.coming-soon-email:focus {
+  outline: none;
+}
+
+.coming-soon-submit {
+  background-color: $light;
+  color: $dark;
+  font-size: $fs-sm;
+  margin: 0 1%;
+  height: 5%;
+  width: 30%;
+  border: 1px solid $dark;
+  cursor: pointer;
+}
+
+.coming-soon-submit:active {
+  background-color: $primary-btn;
+}

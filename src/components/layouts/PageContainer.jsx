@@ -11,6 +11,7 @@ import Home from "../pages/Home";
 import Services from "../pages/Services";
 import About from "../pages/About";
 import ServicePage from "../pages/ServicePage";
+import Store from "../pages/Store";
 
 const servicePagesData = {
   music: {
@@ -44,8 +45,9 @@ export default function PageContainer({ page, setOpen }) {
     <div className="page-container">
       <Routes>
         <Route index element={<Home setOpen={setOpen} />} />
-        <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About setOpen={setOpen} />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/store" element={<Store />} />
         <Route
           path="/services/music"
           element={

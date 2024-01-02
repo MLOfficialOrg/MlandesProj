@@ -173,7 +173,7 @@
 
 /* General */
 
-input[type="text"] {
+.dialog-container input[type="text"] {
   /* stylelint-disable-line */
   background-color: $light;
   height: 2.5vh;
@@ -182,7 +182,7 @@ input[type="text"] {
   padding: 0 2%;
 }
 
-input[type="text"]::placeholder {
+.dialog-container input[type="text"]::placeholder {
   /* stylelint-disable-line */
   color: $dark;
   opacity: 0.5;
