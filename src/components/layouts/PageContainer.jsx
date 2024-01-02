@@ -12,6 +12,7 @@ import Services from "../pages/Services";
 import About from "../pages/About";
 import ServicePage from "../pages/ServicePage";
 import Store from "../pages/Store";
+import Tours from "../pages/Tours";
 
 const servicePagesData = {
   music: {
@@ -47,6 +48,7 @@ export default function PageContainer({ page, setOpen }) {
         <Route index element={<Home setOpen={setOpen} />} />
         <Route path="/about" element={<About setOpen={setOpen} />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/tours" element={<Tours />} />
         <Route path="/store" element={<Store />} />
         <Route
           path="/services/music"
