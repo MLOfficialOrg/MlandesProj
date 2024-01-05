@@ -1,7 +1,7 @@
 // Import Assets
 import { Link } from "react-router-dom";
-import LoggedInAvatar from "../../Assets/Icons/logged-avatar.png";
-import NotLoggedInAvatar from "../../Assets/Icons/not-logged-avatar.png";
+import LoggedInAvatar from "../../assets/Icons/logged-avatar.png";
+import NotLoggedInAvatar from "../../assets/Icons/not-logged-avatar.png";
 
 export default function NavBar({ page, setPage, loggedIn, setLogin }) {
   const tabList = [

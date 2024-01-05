@@ -1,5 +1,5 @@
 // Import Assets
-import { ReactComponent as Logo } from "../../Assets/Logos/logo-black-no-bg.svg";
+import { ReactComponent as Logo } from "../../assets/Logos/logo-black-no-bg.svg";
 
 export default function Login() {
   return (

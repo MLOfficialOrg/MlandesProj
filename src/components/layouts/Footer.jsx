@@ -3,7 +3,7 @@ import SocialMedia from "./SocialMedia";
 import FooterLink from "../buttons/FooterLink";
 
 // Import Assets
-import { ReactComponent as Logo } from "../../Assets/Logos/logo-white-no-bg.svg";
+import { ReactComponent as Logo } from "../../assets/Logos/logo-white-no-bg.svg";
 
 export default function Footer({ setPage }) {
   return (

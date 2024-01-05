@@ -6,6 +6,10 @@ import svgr from "vite-plugin-svgr";
 export default defineConfig({
   plugins: [svgr(), react()],
   server: {
+    host: true,
     port: 8000,
+    watch: {
+      usePolling: true,
+    },
   },
 });
