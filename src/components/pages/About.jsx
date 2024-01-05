@@ -1,7 +1,7 @@
 // Import Assets
-import Studio from "../../assets/Pics/Studio.png";
-import Plugins from "../../assets/Pics/Plugins.png";
-import Recording from "../../assets/Pics/Recording.png";
+import Studio from "../../assets/Studio.png";
+import Plugins from "../../assets/Plugins.png";
+import Recording from "../../assets/Recording.png";
 
 // Import Components
 import AboutDataCard from "../cards/AboutDataCard";

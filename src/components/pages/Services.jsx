@@ -6,9 +6,9 @@ import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
 
 // Import Assets
-import { ReactComponent as MusicProduction } from "../../Assets/Logos/Music-Production.svg";
-import { ReactComponent as Mixing } from "../../Assets/Logos/Mixing.svg";
-import { ReactComponent as Mastering } from "../../Assets/Logos/Mastering.svg";
+import { ReactComponent as MusicProduction } from "../../Assets/Music-Production.svg";
+import { ReactComponent as Mixing } from "../../Assets/Mixing.svg";
+import { ReactComponent as Mastering } from "../../Assets/Mastering.svg";
 
 // Import Components
 import ProductionsDataCard from "../cards/ProductionsDataCard";

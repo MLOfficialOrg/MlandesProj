@@ -2,9 +2,9 @@
 import { Routes, Route } from "react-router-dom";
 
 // Import Assets
-import { ReactComponent as MusicProduction } from "../../Assets/Logos/Music-Production.svg";
-import { ReactComponent as Mixing } from "../../Assets/Logos/Mixing.svg";
-import { ReactComponent as Mastering } from "../../Assets/Logos/Mastering.svg";
+import { ReactComponent as MusicProduction } from "../../assets/Music-Production.svg";
+import { ReactComponent as Mixing } from "../../assets/LMixing.svg";
+import { ReactComponent as Mastering } from "../../assets/Mastering.svg";
 
 // Import Components
 import Home from "../pages/Home";

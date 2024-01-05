@@ -1,10 +1,10 @@
 // Import Assets
-import Spotify from "../../Assets/Icons/Spotify.png";
-import Instagram from "../../Assets/Icons/Instagram.png";
-import Facebook from "../../Assets/Icons/Facebook.png";
-import Youtube from "../../Assets/Icons/Youtube.png";
-import Tiktok from "../../Assets/Icons/Tiktok.png";
-import Twitter from "../../Assets/Icons/Twitter.png";
+import Spotify from "../../Assets/Spotify.png";
+import Instagram from "../../Assets/Instagram.png";
+import Facebook from "../../Assets/Facebook.png";
+import Youtube from "../../Assets/Youtube.png";
+import Tiktok from "../../Assets/Tiktok.png";
+import Twitter from "../../Assets/Twitter.png";
 
 export default function SocialMedia() {
   const socialList = [

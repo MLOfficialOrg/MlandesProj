@@ -3,7 +3,7 @@ import SocialMedia from "./SocialMedia";
 import NavBar from "./NavBar";
 
 // Import Assets
-import Cover from "../../Assets/cover.png";
+import Cover from "../../assets/cover.png";
 
 export default function Header({ page, setPage, loggedIn, setLogin }) {
   return (

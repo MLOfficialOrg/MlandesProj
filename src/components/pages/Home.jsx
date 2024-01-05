@@ -1,8 +1,8 @@
 // Import Assets
-import { ReactComponent as Service } from "../../Assets/Logos/Services.svg";
-import { ReactComponent as MyMusic } from "../../Assets/Logos/MyMusic.svg";
-import { ReactComponent as Tours } from "../../Assets/Logos/Tours.svg";
-import Picture from "../../Assets/michael-home-pic.png";
+import { ReactComponent as Service } from "../../assets/Services.svg";
+import { ReactComponent as MyMusic } from "../../assets/MyMusic.svg";
+import { ReactComponent as Tours } from "../../assets/Tours.svg";
+import Picture from "../../assets/michael-home-pic.png";
 
 // Import Components
 import HomeDataCard from "../cards/HomeDataCard";

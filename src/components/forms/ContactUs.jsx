@@ -5,8 +5,9 @@ import { useForm } from "react-hook-form";
 import axios from "axios";
 
 // Import Assets
-import { ReactComponent as Logo } from "../../Assets/Logos/logo-black-no-bg.svg";
-import { ReactComponent as Close } from "../../assets/Icons/Close-icon.svg";
+import { ReactComponent as Logo } from "../../assets/logo-black-no-bg.svg";
+import { ReactComponent as Close } from "../../assets/Close-icon.svg";
+import s from ""
 
 export default function FormDialog({ open, setOpen }) {
   const {
