@@ -17,6 +17,7 @@
     "@mui/icons-material": "^5.15.2",
     "@mui/material": "^5.15.2",
     "axios": "^1.4.0",
+    "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "normalize-scss": "^7.0.1",
     "prettier": "^3.0.0",
