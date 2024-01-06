@@ -1,7 +1,7 @@
 version: "3.4"
 services:
   MLofficiaL:
-    image: test:latest
+    image: node:latest
     container_name: MLofficiaL
     ports:
       - 8000:4173
