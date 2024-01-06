@@ -1,4 +1,10 @@
 {
-    "plugins": ["stylelint-prettier"],
-    "extends": ["stylelint-config-sass-guidelines", "stylelint-prettier/recommended"] 
+  "plugins": ["stylelint-prettier"],
+  "extends": [
+    "stylelint-config-sass-guidelines",
+    "stylelint-prettier/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": [true, { "endOfLine": "auto" }]
+  }
 }

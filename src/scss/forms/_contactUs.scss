@@ -173,8 +173,7 @@
 
 /* General */
 
-.dialog-container input[type="text"] {
-  /* stylelint-disable-line */
+.dialog-container input[type="text"] {/* stylelint-disable-line */
   background-color: $light;
   height: 2.5vh;
   border: 1px solid $dark;
@@ -182,8 +181,7 @@
   padding: 0 2%;
 }
 
-.dialog-container input[type="text"]::placeholder {
-  /* stylelint-disable-line */
+.dialog-container input[type="text"]::placeholder {/* stylelint-disable-line */
   color: $dark;
   opacity: 0.5;
 }
